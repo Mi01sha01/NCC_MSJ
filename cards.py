@@ -1,0 +1,6 @@
+n=int(input())
+s=input()
+a=s.count('z')
+b=s.count('o')
+c=list ('1'*abs((a-b))+'0'*a)
+print(*c)
