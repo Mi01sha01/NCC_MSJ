@@ -1,0 +1,6 @@
+n=int(input())
+roll=list(map(int, input().split()))
+b=int(input())
+rooll=list(map(int, input().split()))
+c=set(n+b)
+print(len(c))
